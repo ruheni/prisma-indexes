@@ -1,6 +1,6 @@
 services:
   db:
-    image: mysql:5.7
+    image: mysql:8.0
     restart: always
     command: '--query_cache_type=0 --query_cache_size=0'
     environment:
